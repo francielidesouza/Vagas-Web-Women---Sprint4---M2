@@ -1,0 +1,217 @@
+.header__container {
+  min-width: 375px;
+  max-height: 789px;
+  min-height: 789px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/Mulheres.svg");
+  background-position: top;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.header__container--content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 358px;
+  height: 789px;
+  margin: 0 20px;
+}
+
+.header__img--logo {
+  padding-bottom: 60px;
+}
+
+.header__container--description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 319px;
+  height: 456px;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: var(--title-3);
+  line-height: 48px;
+  color: var(--color-grey-3);
+}
+
+.header__description {
+  font-weight: 400;
+  font-size: var(--text-2);
+  line-height: 36px;
+  color: var(--color-grey-5);
+}
+
+.header__description--strong {
+  font-weight: 600;
+  font-size: var(--text-2);
+  line-height: 32px;
+  color: var(--color-grey-5);
+}
+
+.btn {
+  background-color: var(--color-brand-1);
+  border-radius: var(--radius-default);
+  border: 2px solid var(--color-brand-1);
+
+  color: var(--color-grey-6);
+  font-size: var(--text-2);
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.header__btn {
+  padding: 10px 33px;
+}
+
+/* --------------------------MAIN --------------------*/
+
+.div__container--main {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  background-color: var(--color-grey-5);
+}
+
+.container--title {
+  font-weight: 600;
+  color: var(--color-grey-1);
+  font-size: var(--title-4);
+  line-height: 33px;
+}
+
+.container__title--vagas {
+  padding: 40px 0;
+}
+
+.section__container {
+  min-width: 345px;
+}
+
+.ul__container {
+  min-width: 345px;
+  padding: 10px 0;
+
+  align-items: center;
+}
+
+.container__card--li,
+.container__card--aside {
+  min-width: 336px;
+  width: 336px;
+  min-height: 530px;
+  margin-bottom: 30px;
+
+  background-color: var(--color-grey-6);
+  border-radius: var(--radius-default);
+}
+
+.div__container--li,
+.container__aside {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.div__container--detail {
+  display: flex;
+  align-self: flex-start;
+  min-width: 265px;
+  gap: 24px;
+}
+
+.detail--enterprise,
+.detail--city {
+  font-weight: 400;
+  font-size: var(--text-3);
+  line-height: 22px;
+  color: var(--color-grey-2);
+}
+
+.detail--description {
+  font-weight: 400;
+  font-size: var(--text-2);
+  line-height: 32px;
+  color: var(--color-grey-2);
+  width: 268px;
+}
+
+.container__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  width: 100%;
+}
+
+.card__btn--modality {
+  align-self: flex-start;
+  background-color: var(--color-grey-3);
+  border-radius: var(--radius-default);
+  padding: 4px 12px;
+  border: none;
+
+  font-weight: 400;
+  font-size: var(--text-3);
+  color: var(--color-grey-2);
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card__btn--candidate,
+.card__btn--remove {
+  padding: 6px 28px;
+}
+
+.container__card--aside {
+  min-height: 367px;
+}
+
+.card__job--empty {
+  margin-top: 20px;
+}
+
+.aside--title {
+  font-weight: 600;
+  color: var(--color-grey-1);
+  font-size: var(--title-5);
+  line-height: 27px;
+}
+
+.aside--title {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.card__job {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--color-grey-4);
+}
+
+.card__job--detail {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.container__trash {
+  background-color: var(--color-grey-5);
+  border-radius: var(--radius-default);
+  width: 44px;
+  height: 38px;
+  margin-top: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
